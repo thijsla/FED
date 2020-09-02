@@ -64,12 +64,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot](https://github.com/thijsla/FED/blob/master/Schermopname%20(380).png)
-![screenshot](https://github.com/thijsla/FED/blob/master/Schermopname%20(381).png)
-![screenshot](https://github.com/thijsla/FED/blob/master/Schermopname%20(382).png)
-![screenshot](https://github.com/thijsla/FED/blob/master/Schermopname%20(383).png)
-![screenshot](https://github.com/thijsla/FED/blob/master/Schermopname%20(384).png)
-![screenshot](https://github.com/thijsla/FED/blob/master/Schermopname%20(385).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(380).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(381).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(382).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(383).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(384).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(385).png)
 
 **Breakdown-schets:**
 
