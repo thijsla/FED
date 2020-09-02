@@ -73,4 +73,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Breakdown-schets:**
 
-![voorlopige breakdownschets](https://github.com/thijsla/FED/blob/master/Schermopname%20(386).png)
+![voorlopige breakdownschets](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(386).png)
