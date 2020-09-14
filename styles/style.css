@@ -3,3 +3,29 @@
   box-sizing:border-box;  
 }
 
+body {
+    font-family: capitolium-2, Times New Roman, serif;
+    background-color: #EAEAEA;
+}
+
+header img{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: white;
+}
+
+/*Lopende tekst:*/
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+} 
+
+footer {
+    background-color: white;
+}
