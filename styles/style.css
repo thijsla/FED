@@ -1,4 +1,4 @@
-/* CSS Document */
+/*--------------Algemeen-----------*/
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -6,26 +6,417 @@
 body {
     font-family: capitolium-2, Times New Roman, serif;
     background-color: #EAEAEA;
+    margin: 0;
 }
 
-header img{
-    width: 95%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+section, footer{
+    background-color: white;
+    width: 100%;
 }
 
 section{
-    background-color: white;
+    border-bottom: 1px solid lightgray;
+    margin: 0 0 1vh;
 }
 
-/*Lopende tekst:*/
 p{
     font-size: 14px;
     font-weight: 300;
     line-height: 17px;
 } 
 
-footer {
+img {
+    max-width: 100%;
+}
+
+/*--------------Header-----------*/
+
+header{
+    width: 100%;
     background-color: white;
 }
+
+header img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 2vh;
+    padding-top: 3vh;
+    border-bottom: 1px solid lightgray;
+}
+
+/*--------------Voorpagina artikel-----------*/
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first img{
+    position: relative;
+    width: 90%;
+    display: block;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+/*
+.first div{
+   background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
+}
+*/
+
+.first strong:first-of-type{
+    position: absolute;
+    color: white;
+    top: 35vh;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.first strong:nth-of-type(2){
+    position: absolute;
+    color: white;
+    top: 37vh;
+    text-align: center;
+    font-size: 25px;
+    width: 80%;
+}
+
+/*--------------Nieuws lijst-----------*/
+
+.nieuws, .bestgelezen, .corona, .recensies{
+    padding: 1vh 4vw;
+}
+
+.nieuws div, .bestgelezen div, .corona div, .recensies div{
+    margin: 1vh 0 0;
+    padding: 1vh 0 0;
+    border-top: 8px solid #008bc3;
+}
+
+.nieuws strong, .bestgelezen strong, .corona strong, .recensies strong{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.nieuws a, .bestgelezen a, .recensies a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.nieuws article, .bestgelezen article, .corona article, .recensies article{
+    padding-bottom: 2.5vh;
+    padding-top: 1.5vh;
+    display: flex;
+}
+
+.nieuws article + article, .bestgelezen article + article, .corona article + article, .recensies article + article{
+    border-top: 1px solid lightgray;
+}
+
+.nieuws img, .corona img, .recensies img{
+    height: 65px;
+    width: 65px;
+}
+
+.nieuws article p{
+    display: inline;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    margin: .5vh 3vw 0vh;
+}
+
+/*--------------Versie 1-----------*/
+
+.versie1{
+    padding: 2vh 4vw;
+    display: block;
+}
+
+.versie1 p:first-of-type, .versie1 strong:first-of-type{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.versie1 strong:first-of-type{
+    font-weight: 900;
+    margin-right: .5em;
+}
+
+.versie1 p:first-of-type{
+    display: inline;
+}
+
+.versie1 p:nth-of-type(2), .versie1 p:nth-of-type(3){
+    font-size: 25px;
+    display: inline;
+}
+
+.versie1 strong:nth-of-type(2), .versie1 strong:nth-of-type(3){
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+/*--------------Versie 2-----------*/
+
+.versie2 p:first-of-type, .versie2 strong:first-of-type{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.versie2 strong:first-of-type{
+    font-weight: 900;
+    margin-right: .5em;
+}
+
+.versie2 p:first-of-type{
+    display: inline;
+}
+
+.versie2 p:nth-of-type(2), .versie2 p:nth-of-type(3){
+    font-size: 25px;
+    display: inline;
+}
+
+.versie2 strong:nth-of-type(2), .versie2 strong:nth-of-type(3){
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+/*--------------Column-----------*/
+
+.column{
+    padding: 1vh 4vw;
+}
+
+.column div{
+    margin: 1vh 0;
+    padding: 1vh 3vw;
+    display: block;
+    background-color: #EFF7FC;
+    border-top: 8px solid black;
+}
+
+.column img{
+    height: 120px;
+    position: absolute;
+    right: 4vw;
+/*    bottom: 1vh;*/
+}
+
+.column strong{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 900;
+    color: #008BC3;
+}
+
+.column p:first-of-type{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0 0 1vh 0;
+}
+
+.column p:last-of-type{
+    font-size: 25px;
+    display: inline;
+}
+
+/*--------------Best gelezen lijst-----------*/
+
+.bestgelezen article p{
+    display: inline;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    margin: .5vh 3vw 0vh;
+}
+
+.bestgelezen span{
+    font-size: 3em;
+    margin: 0;
+    color: #ccc;
+}
+
+/*--------------Kopjes-----------*/
+
+.kopje, .kopje2, .kopje4, .kopje5, .kopje6{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.kopje3{
+    border: none;
+}
+
+.kopje p, .kopje2 p, .kopje3 p, .kopje4 p, .kopje5 p, .kopje6 p{
+    color: #008bc3;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+    padding: .5em 0;
+}
+
+.kopje p:nth-of-type(2), .kopje4 p:nth-of-type(2){
+    color: black;
+    font-family: Arial;
+    font-weight: 100;
+    padding: 0.5em 0.3em;
+}
+
+.kopje2{
+    align-items: center;
+    flex-direction: column;
+}
+
+.kopje2 p, .kopje3 p, .kopje4 p{
+    color: black;
+}
+
+.kopje2 button{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 2em;
+    width: 90%;
+    padding: .5em;
+    margin: 1em;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.kopje3 button{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 2em;
+    padding: 0.5em 1em;
+    margin: .5em .2em;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.kopje4 p:nth-of-type(2){
+    font-family: capitolium-2;
+}
+
+.kopje5 p{
+    color: #cf4676;
+}
+
+.kopje6 p{
+    color: #389f0f;
+}
+
+/*--------------Corona lijst-----------*/
+
+.corona strong{
+    color: #008bc3;
+}
+
+.corona article strong{
+    color: black;
+    font-weight: 700;
+    display: inline;
+    line-height: 18px;
+    margin: 0 3vw 0 0;
+}
+
+.corona article p{
+    display: inline;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    margin: .5vh 3vw 0vh;
+}
+
+/*--------------Recensies lijst-----------*/
+
+.recensies article p{
+    display: inline;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    margin: .5vh 3vw 0vh;
+}
+
+.recensies article strong{
+    color: black;
+    font-weight: 700;
+    display: inline;
+    line-height: 18px;
+    margin: 0 3vw 0 0;
+}
+
+/*--------------"Meer" buttons-----------*/
+
+.button{
+    background-color: #EAEAEA;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.meer{
+    text-decoration: none;
+    color: #727272;
+    background-color: #f1f1f1;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 2em;
+    border: none;
+    padding: .8em 1.5em;
+    margin: 1em 0 2em;
+}
+
+/*--------------Footer-----------*/
+
+footer{
+    padding: 2vh 4vw;
+}
+
+footer strong:first-of-type{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+footer strong:nth-of-type(2){
+    color: #008bc3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    font-family: Arial;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
