@@ -38,11 +38,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Alle HTML van de eerste pagina er al in, een groot deel CSS ook al geschreven.
 
-**Screenshot(s):**
+**Screenshot(s) van voortgang:**
 
--screenshot(s) van hoe ver je bent-
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(470).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(471).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(472).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(473).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(474).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(475).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(476).png)
 
 ### Agenda voor meeting
 
@@ -50,8 +56,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+HTML:
+* HTML ziet er goed uit
+* <p> en <strong> mogen in een <article> samengevoegd worden
+* <section> van "meer columns & opninie" etc. mogen vervangen worden door <div>
+* Sommige <strong> elementen mogen vervangen worden door <h2> in de <article>s en <footer>
 
+CSS:
+* CSS ziet er goed uit, dingen al samengevoegd, goed gebruik van pseudoclasses, kopjes aan delen gegeven voor overzicht
+* Sommige classes mogen andere namen krijgen
+* CSS van <p> en <strong> aanpassen
+* Gebruik van font-size eenheden moeten gelijk worden (px, em, etc.)
 
 
 ## Intake (week 1)
