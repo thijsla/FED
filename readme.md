@@ -56,14 +56,14 @@ Alle HTML van de eerste pagina er al in, een groot deel CSS ook al geschreven.
 
 HTML:
 * HTML ziet er goed uit
-* <p> en <strong> mogen in een <article> samengevoegd worden
-* <section> van "meer columns & opninie" etc. mogen vervangen worden door <div>
-* Sommige <strong> elementen mogen vervangen worden door <h2> in de <article>s en <footer>
+* p en strong mogen in een article samengevoegd worden
+* section van "meer columns & opninie" etc. mogen vervangen worden door div
+* Sommige strong elementen mogen vervangen worden door h2 in de articles en footer
 
 CSS:
 * CSS ziet er goed uit, dingen al samengevoegd, goed gebruik van pseudoclasses, kopjes aan delen gegeven voor overzicht
 * Sommige classes mogen andere namen krijgen
-* CSS van <p> en <strong> aanpassen
+* CSS van p en strong aanpassen
 * Gebruik van font-size eenheden moeten gelijk worden (px, em, etc.)
 
 
