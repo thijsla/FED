@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-Alle HTML van de eerste pagina er al in, een groot deel CSS ook al geschreven.
+Alle HTML van de eerste pagina er al in, een groot deel CSS ook al geschreven. Waarschijnlijk ga ik later niet meer responsive ontwerpen, maar meer aandacht voor de surface laag.
 
 **Screenshot(s) van voortgang:**
 
