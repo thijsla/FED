@@ -42,8 +42,6 @@ Alle HTML van de eerste pagina er al in, een groot deel CSS ook al geschreven.
 
 **Screenshot(s) van voortgang:**
 
-![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(470).png)
-![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(471).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(472).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(473).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(474).png)
