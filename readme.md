@@ -57,7 +57,7 @@ Alle HTML van de eerste pagina er al in, een groot deel CSS ook al geschreven. W
 HTML:
 * HTML ziet er goed uit
 * p en strong mogen in een article samengevoegd worden
-* section van "meer columns & opninie" etc. mogen vervangen worden door div
+* section van "meer columns & opinie" etc. mogen vervangen worden door div
 * Sommige strong elementen mogen vervangen worden door h2 in de articles en footer
 
 CSS:
