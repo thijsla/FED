@@ -1,3 +1,9 @@
+/*Nog op te lossen
+- Foto bij columns moet rechts naast de tekst
+- Eerste strong van titels moeten anders
+- Kopje van 'de gids'
+- 'Meer' in de lijsten moet rechts staan*/
+
 /*--------------Algemeen-----------*/
 *, *::after, *::before {
   box-sizing:border-box;  
@@ -46,68 +52,116 @@ header img{
     border-bottom: 1px solid lightgray;
 }
 
+/*--------------Navigatie-----------*/
+
+nav{
+    padding: 0 4vw;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+li:first-of-type{
+    border-bottom: 5px solid black;
+}
+
+/*--------------Bottom navigatie-----------*/
+
+nav:nth-of-type(2){
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav:nth-of-type(2) ul{
+    display: flex;
+}
+
+nav:nth-of-type(2) li{
+    font-size: 10px;
+    border: none;
+    justify-content: space-between;
+}
+
 /*--------------Voorpagina artikel-----------*/
 
-.first{
+section:first-of-type{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.first img{
-    position: relative;
+section:first-of-type img{
     width: 90%;
     display: block;
     padding-bottom: 2vh;
     padding-top: 2vh;
 }
 
-/*
-.first div{
-   background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
-}
-*/
-
-.first strong:first-of-type{
+section:first-of-type div{
     position: absolute;
     color: white;
-    top: 35vh;
+    bottom: 2vh;
+    text-align: center;
+    width: 90%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
+}
+
+section:first-of-type strong:first-of-type{
+    color: white;
     text-transform: uppercase;
     font-family: Arial;
     font-size: 13px;
     font-weight: 900;
+    display: block;
 }
 
-.first strong:nth-of-type(2){
-    position: absolute;
+section:first-of-type strong:last-of-type{
     color: white;
-    top: 37vh;
-    text-align: center;
     font-size: 25px;
     width: 80%;
 }
 
-/*--------------Nieuws lijst-----------*/
+/*--------------Lijst-----------*/
 
-.nieuws, .bestgelezen, .corona, .recensies{
+.lijst, .bestgelezen{
     padding: 1vh 4vw;
 }
 
-.nieuws div, .bestgelezen div, .corona div, .recensies div{
+.lijst div, .bestgelezen div{
     margin: 1vh 0 0;
     padding: 1vh 0 0;
     border-top: 8px solid #008bc3;
 }
 
-.nieuws strong, .bestgelezen strong, .corona strong, .recensies strong{
+.lijst strong, .bestgelezen strong{
     text-transform: uppercase;
     font-family: Arial;
     font-weight: 900;
     font-size: 13px;
 }
 
-.nieuws a, .bestgelezen a, .recensies a{
+.lijst a, .bestgelezen a{
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -115,40 +169,46 @@ header img{
     font-family: Arial;
 }
 
-.nieuws article, .bestgelezen article, .corona article, .recensies article{
+.lijst article, .bestgelezen article{
     padding-bottom: 2.5vh;
     padding-top: 1.5vh;
     display: flex;
 }
 
-.nieuws article + article, .bestgelezen article + article, .corona article + article, .recensies article + article{
+.lijst article + article, .bestgelezen article + article{
     border-top: 1px solid lightgray;
 }
 
-.nieuws img, .corona img, .recensies img{
+.lijst img{
     height: 65px;
     width: 65px;
 }
 
-.nieuws article p{
-    display: inline;
+.lijst article p{
     font-size: 16px;
     font-weight: 300;
     line-height: 18px;
-    margin: .5vh 3vw 0vh;
+    margin: .5vh 3vw 0;
+}
+
+.lijst article strong{
+    margin-right: 3vw;
 }
 
 /*--------------Versie 1-----------*/
 
 .versie1{
     padding: 2vh 4vw;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .versie1 p:first-of-type, .versie1 strong:first-of-type{
     text-transform: uppercase;
     font-family: Arial;
     font-size: 13px;
+    margin: 0;
 }
 
 .versie1 strong:first-of-type{
@@ -158,11 +218,16 @@ header img{
 
 .versie1 p:first-of-type{
     display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .versie1 p:nth-of-type(2), .versie1 p:nth-of-type(3){
     font-size: 25px;
     display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1em;
 }
 
 .versie1 strong:nth-of-type(2), .versie1 strong:nth-of-type(3){
@@ -171,26 +236,33 @@ header img{
     line-height: 1.2em;
 }
 
-/*--------------Versie 2-----------*/
+/*--------------Versie met volledige breedte-----------*/
 
 .versie2 p:first-of-type, .versie2 strong:first-of-type{
     text-transform: uppercase;
     font-family: Arial;
     font-size: 13px;
+    margin: 0;
 }
 
 .versie2 strong:first-of-type{
     font-weight: 900;
     margin-right: .5em;
+    padding-left: 5vw;
 }
 
 .versie2 p:first-of-type{
     display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .versie2 p:nth-of-type(2), .versie2 p:nth-of-type(3){
     font-size: 25px;
-    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1em;
+    padding-left: 5vw;
 }
 
 .versie2 strong:nth-of-type(2), .versie2 strong:nth-of-type(3){
@@ -199,25 +271,156 @@ header img{
     line-height: 1.2em;
 }
 
+.versie2 p:last-of-type{
+    padding-bottom: 2vh;
+    padding-right: 5vw;
+}
+
+.versie2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.versie2 div{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    text-align: left;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
+}
+
+.center div{
+    text-align: center;
+}
+
+.center div strong:first-of-type{
+    padding-left: 0;
+}
+
+.zwart div{
+    color: black;
+    background: none;
+}
+
+.top div{
+    top: 0;
+    padding-top: 1vh;
+    background: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 50%, rgba(0,0,0,0) 100%);
+}
+
+.top div strong:first-of-type, .top div p:nth-of-type(2){
+    padding-left: 2vw;
+}
+
+.right div{
+    text-align: right;
+}
+
+.right div p:first-of-type{
+    padding-right: 5vw;
+}
+
+.geenschaduw div{
+    background: none;
+}
+
+/*--------------Versie met witte rand-----------*/
+
+.versie3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.versie3 img{
+    width: 90%;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.versie3 div{
+    position: absolute;
+    top: 2vh;
+    text-align: center;
+    width: 90%;
+    text-align: right;
+}
+
+.versie3 p:first-of-type, .versie3 strong:first-of-type{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0;
+}
+
+.versie3 strong:first-of-type{
+    font-weight: 900;
+    margin-right: .5em;
+}
+
+.versie3 p:first-of-type{
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 3vw;
+}
+
+.versie3 p:nth-of-type(2), .versie3 p:nth-of-type(3){
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1em;
+    padding-left: 3vw;
+}
+
+.versie3 strong:nth-of-type(2), .versie3 strong:nth-of-type(3){
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.versie3 p:last-of-type{
+    padding-bottom: 2vh;
+    padding-right: 3vw;
+}
+
+.links div{
+    text-align: left;
+}
+
+.links div strong:first-of-type{
+    padding-left: 3vw;
+}
+
+.wit div{
+    color: white;
+}
+
+.center div{
+    text-align: center;
+}
+
 /*--------------Column-----------*/
 
 .column{
-    padding: 1vh 4vw;
+    padding: 1vh 3vw;
 }
 
 .column div{
-    margin: 1vh 0;
-    padding: 1vh 3vw;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: .5vh 0;
+    padding: 1vh 3vw 0;
     background-color: #EFF7FC;
     border-top: 8px solid black;
 }
 
 .column img{
     height: 120px;
-    position: absolute;
-    right: 4vw;
-/*    bottom: 1vh;*/
+    width: 120px;
 }
 
 .column strong{
@@ -237,17 +440,18 @@ header img{
 
 .column p:last-of-type{
     font-size: 25px;
+    line-height: 1em;
     display: inline;
+    margin: 0;
 }
 
 /*--------------Best gelezen lijst-----------*/
 
 .bestgelezen article p{
-    display: inline;
     font-size: 16px;
     font-weight: 300;
     line-height: 18px;
-    margin: .5vh 3vw 0vh;
+    margin: .5vh 3vw 0;
 }
 
 .bestgelezen span{
@@ -326,46 +530,6 @@ header img{
     color: #389f0f;
 }
 
-/*--------------Corona lijst-----------*/
-
-.corona strong{
-    color: #008bc3;
-}
-
-.corona article strong{
-    color: black;
-    font-weight: 700;
-    display: inline;
-    line-height: 18px;
-    margin: 0 3vw 0 0;
-}
-
-.corona article p{
-    display: inline;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 18px;
-    margin: .5vh 3vw 0vh;
-}
-
-/*--------------Recensies lijst-----------*/
-
-.recensies article p{
-    display: inline;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 18px;
-    margin: .5vh 3vw 0vh;
-}
-
-.recensies article strong{
-    color: black;
-    font-weight: 700;
-    display: inline;
-    line-height: 18px;
-    margin: 0 3vw 0 0;
-}
-
 /*--------------"Meer" buttons-----------*/
 
 .button{
@@ -412,10 +576,39 @@ footer strong:nth-of-type(2){
     display: block;
 }
 
+footer h4{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
 
+footer p{
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+    line-height: 2.2;
+}
 
+footer div p{
+    font-size: 12px;
+    border-top: 1px solid lightgray;
+    padding-top: 1em;
+    margin-bottom: 5em;
+}
 
+footer div{
+    position: relative;
+    margin-top: 50px;
+}
 
+footer div img{
+    width: 110px;
+    position: absolute;
+    right: 15px;
+    top: -80px;
+}
 
 
 
