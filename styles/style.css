@@ -36,6 +36,7 @@ p{
 
 img {
     max-width: 100%;
+    align-self: flex-start;
 }
 
 /*--------------Header-----------*/
@@ -170,6 +171,7 @@ section:first-of-type strong:last-of-type{
     color: black;
     font-size: 13px;
     font-family: Arial;
+    float: right;
 }
 
 .lijst article, .bestgelezen article{
