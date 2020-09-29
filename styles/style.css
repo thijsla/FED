@@ -36,6 +36,9 @@ p{
 
 img {
     max-width: 100%;
+}
+
+section img{
     align-self: flex-start;
 }
 
