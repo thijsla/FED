@@ -30,8 +30,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
+Bijna alle CSS van pagina 1 is geschreven, behalve de twee navigatiebalken. De HTML van pagina 2 is ook geschreven. Er zijn nog een paar puntjes die toe moeten worden gepast in de CSS voor pagina 1.
+
+**Screenshot(s) van voortgang:**
+
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(513).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(514).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(515).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(516).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(517).png)
+
+### Agenda voor meeting
+
+Ik wil het in de meeting het graag hebben over de twee navigatiebalken.
+
+### Verslag van meeting
+
+-TBA-
 
 
 ## Voortgang 1 (week 3)
