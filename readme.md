@@ -36,7 +36,6 @@ Bijna alle CSS van pagina 1 is geschreven, behalve de twee navigatiebalken. De H
 
 **Screenshot(s) van voortgang:**
 
-![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(513).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(514).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(515).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(516).png)
