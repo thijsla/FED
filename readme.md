@@ -36,6 +36,7 @@ Bijna alle CSS van pagina 1 is geschreven, behalve de twee navigatiebalken. De H
 
 **Screenshot(s) van voortgang:**
 
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(513).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(514).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(515).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(516).png)
@@ -47,7 +48,14 @@ Ik wil het in de meeting het graag hebben over de twee navigatiebalken.
 
 ### Verslag van meeting
 
--TBA-
+Goede voortgang, ziet er goed uit.
+
+HTML:
+* Linkjes in de footer mogen unordered lists worden
+
+Overige besprekingen:
+* Vormgeving van de nav
+* Gebruik van twee css documenten
 
 
 ## Voortgang 1 (week 3)

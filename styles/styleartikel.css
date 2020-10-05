@@ -1,0 +1,310 @@
+/*--------------Algemeen-----------*/
+
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+body {
+    font-family: capitolium-2, Times New Roman, serif;
+    background-color:white;
+    margin: 0;
+}
+
+section, footer{
+    width: 100%;
+}
+
+main p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0 0 30px;
+} 
+
+main h3{
+    margin: 30px 0 5px;
+}
+
+span{
+    color: #0097d8;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    margin: 0 4vw;
+}
+
+/*--------------Top navigatie-----------*/
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img{
+    height: 22px;
+}
+
+nav{
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+
+/*--------------Titels en foto-----------*/
+
+section:first-of-type p:first-of-type{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 3vh;
+}
+
+section:first-of-type p:first-of-type strong{
+    color: #0097d8;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 33px;
+    margin: 0 0 20px;
+}
+
+section:first-of-type h2{
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+section:first-of-type p:nth-of-type(2){
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: Arial;
+}
+
+figure{
+    margin: 0 0 30px;
+}
+
+figcaption{
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0;
+    color: #9b9b9b;
+}
+
+figcaption strong{
+    color: black;
+}
+
+/*--------------De Volkskrant Avond-----------*/
+
+main div{
+    background-color: #E6F4FA;
+    padding: 4vh 8vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+main div h2{
+    margin: 0;
+    font-size: 24px;
+}
+
+main div p{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0 10px;
+    font-family: Arial;
+}
+
+input{
+    font-family: Arial;
+    padding: 0 0 0 13px;
+    height: 35px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #e6f4fa;
+    border-radius: 3px;
+}
+
+main div button{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #0097d8;
+    border-radius: 2em;
+    border: 0;
+    height: 35px;
+    margin: 10px 0 0;
+}
+
+/*--------------Lees verder-----------*/
+
+.leesverder{
+    border-left: 2px solid lightgray;
+    padding-left: 1em;
+}
+
+.leesverder img{
+    width: 20px;
+    height: auto;
+    margin: 0 0 5px;
+}
+
+.leesverder h4{
+    font-family: Arial;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+.leesverder strong{
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Arial;
+}
+
+.leesverder p{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 0 15px;
+}
+
+/*--------------Delen-----------*/
+
+.delen img{
+    width: 40px;
+}
+
+.delen ul{
+    list-style-type: none;
+    padding: 15px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.delen li{
+    display: inline;
+}
+
+/*--------------Meer over-----------*/
+
+.meerover ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.meerover strong, .meerover a{
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.meerover li{
+    display: inline;
+}
+
+.meerover a{
+    color: #727272;
+    text-decoration: none;
+}
+
+/*--------------Footer-----------*/
+
+footer{
+    padding: 2vh 4vw;
+    border-top: 1px solid lightgray;
+    margin-top: 2vh;
+}
+
+footer h2{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0 0 15px;
+}
+
+footer h3{
+    color: #008bc3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    font-family: Arial;
+    display: block;
+    margin: 0;
+}
+
+footer h4{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a{
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+    line-height: 2.2em;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+footer div p{
+    font-family: Arial;
+    font-size: 12px;
+    border-top: 1px solid lightgray;
+    padding-top: 1em;
+    margin-bottom: 5em;
+}
+
+footer div a{
+    font-size: 12px;
+    display: inline;
+    color: blue;
+    text-decoration: underline;
+    line-height: 1em;
+}
+
+footer div{
+    position: relative;
+    margin-top: 50px;
+}
+
+footer div img{
+    width: 110px;
+    position: absolute;
+    right: 15px;
+    top: -80px;
+}
