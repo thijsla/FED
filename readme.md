@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. www.volkskrant.nl
+2. Verschillende studentassistenten en docenten hebben mij geholpen met het verwerken van een aantal kleine problemen.
+3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 
@@ -24,8 +24,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+Alle HTML en CSS is geschreven. Er moeten nog wat puntjes worden aangepast van de eerste twee voortgangsgesprekken. Daarnaast moet er nog JS aan worden toegevoegd.
 
+**Screenshot(s) van voortgang:**
+
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(564).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(565).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(566).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(567).png)
+
+### Verslag van meeting
+Onderdelen van het eerste voortgangsgesprek moeten nog worden toegepast.
 
 
 ## Voortgang 2 (week 5)
@@ -72,23 +82,19 @@ Alle HTML van de eerste pagina er al in, een groot deel CSS ook al geschreven. W
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(475).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(476).png)
 
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
 ### Verslag van meeting
 
 HTML:
 * HTML ziet er goed uit
 * p en strong mogen in een article samengevoegd worden
 * section van "meer columns & opinie" etc. mogen vervangen worden door div
-* Sommige strong elementen mogen vervangen worden door h2 in de articles en footer
+* Sommige strong elementen mogen vervangen worden door h2 in de footer
 
 CSS:
 * CSS ziet er goed uit, dingen al samengevoegd, goed gebruik van pseudoclasses, kopjes aan delen gegeven voor overzicht
 * Sommige classes mogen andere namen krijgen
 * CSS van p en strong aanpassen
-* Gebruik van font-size eenheden moeten gelijk worden (px, em, etc.)
+* Gebruik van font-size eenheden moeten gelijk worden (gebruik bijv. geen pixels voor font-sizes)
 
 
 ## Intake (week 1)

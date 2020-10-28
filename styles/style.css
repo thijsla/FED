@@ -1,8 +1,3 @@
-/*Nog op te lossen
-- Top nav scrollbaar maken
-- Bottom nav svg's
-- Aantal punten van voortgangsgesprek 1 nog toepassen*/
-
 /*--------------Algemeen-----------*/
 
 *, *::after, *::before {
@@ -26,9 +21,9 @@ section{
 }
 
 p{
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 300;
-    line-height: 17px;
+    line-height: 1.2em;
 } 
 
 img {
@@ -49,7 +44,7 @@ header img{
     margin: auto;
     background-color: white;
     padding-bottom: 2vh;
-    padding-top: 3vh;
+    padding-top: 9vh;
     border-bottom: 1px solid lightgray;
 }
 
@@ -77,7 +72,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     padding: 15px 5px;
     list-style-type: none;
 }
@@ -98,19 +93,26 @@ li:first-of-type{
 
 /*--------------Bottom navigatie-----------*/
 
-nav:nth-of-type(2){
+footer nav{
     bottom: 0;
+    right: 0;
+    left: 0;
     border-top: 1px solid lightgray;
+    z-index: 999;
 }
 
-nav:nth-of-type(2) ul{
+footer nav ul{
     display: flex;
     justify-content: space-between;
 }
 
-nav:nth-of-type(2) li{
-    font-size: 10px;
+footer nav li{
+    font-size: 1em;
     border: none;
+}
+
+footer nav img{
+    height: 30px;
 }
 
 /*--------------Voorpagina artikel-----------*/
@@ -143,15 +145,19 @@ section:first-of-type strong:first-of-type{
     color: white;
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8em;
     font-weight: 900;
     display: block;
 }
 
 section:first-of-type strong:last-of-type{
     color: white;
-    font-size: 25px;
+    font-size: 1.5em;
     width: 80%;
+}
+
+section:first-of-type a{
+    text-decoration: none;
 }
 
 /*--------------Lijst-----------*/
@@ -170,14 +176,14 @@ section:first-of-type strong:last-of-type{
     text-transform: uppercase;
     font-family: Arial;
     font-weight: 900;
-    font-size: 13px;
+    font-size: 0.8em;
 }
 
 .lijst a, .bestgelezen a{
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 0.8em;
     font-family: Arial;
     float: right;
 }
@@ -198,9 +204,9 @@ section:first-of-type strong:last-of-type{
 }
 
 .lijst article p{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
-    line-height: 18px;
+    line-height: 1.2em;
     margin: .5vh 3vw 0;
 }
 
@@ -208,34 +214,34 @@ section:first-of-type strong:last-of-type{
     margin-right: 3vw;
 }
 
-/*--------------Versie 1-----------*/
+/*--------------Artikelen met witte rand en titel onder de foto-----------*/
 
-.versie1{
+.artikel_witterand_titelonderfoto{
     padding: 2vh 4vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.versie1 p:first-of-type{
+.artikel_witterand_titelonderfoto p:first-of-type{
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8em;
     margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.versie1 p:nth-of-type(2), .versie1 p:nth-of-type(3){
-    font-size: 25px;
+.artikel_witterand_titelonderfoto p:nth-of-type(2), .artikel_witterand_titelonderfoto p:nth-of-type(3){
+    font-size: 1.5em;
     display: inline;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1em;
 }
 
-.versie1 strong:nth-of-type(2), .versie1 strong:nth-of-type(3){
-    font-size: 25px;
+.artikel_witterand_titelonderfoto strong:nth-of-type(2), .artikel_witterand_titelonderfoto strong:nth-of-type(3){
+    font-size: 1em;
     font-weight: 700;
     line-height: 1.2em;
 }
@@ -243,7 +249,7 @@ section:first-of-type strong:last-of-type{
 .uppercase{
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 1em;
     margin: 0;
     font-weight: 900;
     margin-right: .5em;
@@ -251,14 +257,14 @@ section:first-of-type strong:last-of-type{
 
 /*--------------Versie met volledige breedte-----------*/
 
-.versie2{
+.artikel_volledigebreedte_fotointekst{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.versie2 div{
+.artikel_volledigebreedte_fotointekst div{
     position: absolute;
     color: white;
     bottom: 0;
@@ -266,10 +272,10 @@ section:first-of-type strong:last-of-type{
     background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0) 100%);
 }
 
-.versie2 p:first-of-type{
+.artikel_volledigebreedte_fotointekst p:first-of-type{
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8em;
     margin: 0;
     display: inline;
     margin-top: 5px;
@@ -280,21 +286,21 @@ section:first-of-type strong:last-of-type{
     padding-left: 5vw;
 }
 
-.versie2 p:nth-of-type(2), .versie2 p:nth-of-type(3){
-    font-size: 25px;
+.artikel_volledigebreedte_fotointekst p:nth-of-type(2), .artikel_volledigebreedte_fotointekst p:nth-of-type(3){
+    font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1em;
     padding-left: 5vw;
 }
 
-.versie2 strong:nth-of-type(2), .versie2 strong:nth-of-type(3){
-    font-size: 25px;
+.artikel_volledigebreedte_fotointekst strong:nth-of-type(2), .artikel_volledigebreedte_fotointekst strong:nth-of-type(3){
+    font-size: 1em;
     font-weight: 700;
     line-height: 1.2em;
 }
 
-.versie2 p:last-of-type{
+.artikel_volledigebreedte_fotointekst p:last-of-type{
     padding-bottom: 2vh;
     padding-right: 5vw;
 }
@@ -362,7 +368,7 @@ section:first-of-type strong:last-of-type{
 .versie3 p:first-of-type{
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8em;
     margin: 0;
     display: inline;
     margin-top: 5px;
@@ -375,7 +381,7 @@ section:first-of-type strong:last-of-type{
 }
 
 .versie3 p:nth-of-type(2), .versie3 p:nth-of-type(3){
-    font-size: 25px;
+    font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1em;
@@ -383,7 +389,7 @@ section:first-of-type strong:last-of-type{
 }
 
 .versie3 strong:nth-of-type(2), .versie3 strong:nth-of-type(3){
-    font-size: 25px;
+    font-size: 1em;
     font-weight: 700;
     line-height: 1.2em;
 }
@@ -430,7 +436,7 @@ section:first-of-type strong:last-of-type{
 .column strong{
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8em;
     font-weight: 900;
     color: #008BC3;
 }
@@ -438,12 +444,12 @@ section:first-of-type strong:last-of-type{
 .column p:first-of-type{
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 0.8em;
     margin: 0 0 1vh 0;
 }
 
 .column p:last-of-type{
-    font-size: 25px;
+    font-size: 1.5em;
     line-height: 1em;
     display: inline;
     margin: 0;
@@ -452,56 +458,57 @@ section:first-of-type strong:last-of-type{
 /*--------------Best gelezen lijst-----------*/
 
 .bestgelezen article p{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
-    line-height: 18px;
+    line-height: 1.2em;
     margin: .5vh 3vw 0;
 }
 
 .bestgelezen span{
     font-size: 3em;
+    line-height: 0.8em;
     margin: 0;
     color: #ccc;
 }
 
-/*--------------Kopjes-----------*/
+/*--------------Categorietitels-----------*/
 
-.kopje, .kopje2, .kopje4, .kopje5, .kopje6{
+.categorietitel, .categorietitel2, .categorietitel4, .categorietitel5, .categorietitel6{
     display: flex;
     justify-content: center;
     border: none;
 }
 
-.kopje3{
+.categorietitel3{
     border: none;
 }
 
-.kopje p, .kopje2 p, .kopje3 p, .kopje4 p, .kopje5 p, .kopje6 p{
+.categorietitel p, .categorietitel2 p, .categorietitel3 p, .categorietitel4 p, .categorietitel5 p, .categorietitel6 p{
     color: #008bc3;
-    font-size: 22px;
+    font-size: 1.4em;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 1.4em;
     margin: 0;
     padding: .5em 0;
 }
 
-.kopje p:nth-of-type(2), .kopje4 p:nth-of-type(2){
+.categorietitel p:nth-of-type(2), .categorietitel4 p:nth-of-type(2){
     color: black;
     font-family: Arial;
     font-weight: 100;
     padding: 0.5em 0.3em;
 }
 
-.kopje2{
+.categorietitel2{
     align-items: center;
     flex-direction: column;
 }
 
-.kopje2 p, .kopje3 p, .kopje4 p{
+.categorietitel2 p, .categorietitel3 p, .categorietitel4 p{
     color: black;
 }
 
-.kopje2 button{
+.categorietitel2 button{
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 2em;
@@ -509,10 +516,10 @@ section:first-of-type strong:last-of-type{
     padding: .5em;
     margin: 1em;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 0.9em;
 }
 
-.kopje3{
+.categorietitel3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -524,25 +531,25 @@ section:first-of-type strong:last-of-type{
     white-space: nowrap;
 }
 
-.kopje3 button{
+.categorietitel3 button{
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 2em;
     padding: 0.5em 1em;
     margin: .5em .2em;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 0.9em;
 }
 
-.kopje4 p:nth-of-type(2){
+.categorietitel4 p:nth-of-type(2){
     font-family: capitolium-2;
 }
 
-.kopje5 p{
+.categorietitel5 p{
     color: #cf4676;
 }
 
-.kopje6 p{
+.categorietitel6 p{
     color: #389f0f;
 }
 
@@ -562,12 +569,17 @@ section:first-of-type strong:last-of-type{
     text-transform: uppercase;
     font-family: Arial;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 17px;
     border-radius: 2em;
     border: none;
     padding: .8em 1.5em;
     margin: 1em 0 2em;
+}
+
+
+.artikelLezen{
+    display: none;
 }
 
 /*--------------Footer-----------*/
@@ -577,32 +589,41 @@ footer{
 }
 
 footer strong:first-of-type{
-    font-size: 22px;
+    font-size: 1.4em;
     font-weight: 700;
     line-height: 25px;
-    margin-bottom: 1em;
 }
 
 footer strong:nth-of-type(2){
     color: #008bc3;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
-    line-height: 19px;
+    line-height: 1.2em;
     font-family: Arial;
     display: block;
+    margin-top: 0.5em;
 }
 
 footer h4{
     font-family: Arial;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.9em;
+    line-height: 1.2em;
     margin-bottom: 10px;
     margin-top: 30px;
 }
 
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li:first-of-type{
+    border: none;
+}
+
 footer a{
     font-family: Arial;
-    font-size: 14px;
+    font-size: 0.9em;
     margin: 0;
     line-height: 2.2em;
     display: block;
@@ -612,14 +633,14 @@ footer a{
 
 footer div p{
     font-family: Arial;
-    font-size: 12px;
+    font-size: 0.8em;
     border-top: 1px solid lightgray;
     padding-top: 1em;
     margin-bottom: 5em;
 }
 
 footer div a{
-    font-size: 12px;
+    font-size: 0.9em;
     display: inline;
     color: blue;
     text-decoration: underline;
@@ -637,7 +658,3 @@ footer div img{
     right: 15px;
     top: -80px;
 }
-
-
-
-

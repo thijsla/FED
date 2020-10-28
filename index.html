@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="jouw naam">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
 
     <title>Nieuws, achtergronden en columns van de Volkskrant</title>
 
@@ -30,43 +30,17 @@
                 <li><a href="#sport">Sport</a></li>
             </ul>
         </nav>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">
-                        Start
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Best gelezen
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Nieuws
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Zoeken
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Service
-                    </a>
-                </li>
-            </ul>
-        </nav>
+
         <img src="./images/volkskrant_logo.svg" alt="logo">
     </header>
     <main>
-        <section>
+        <section id="voorpagina">
             <img src="./images/voorpagina_first.jpg" alt="Vrouw in dokterskleding">
             <div>
-                <strong>Nieuws</strong>
-                <strong>Studie naar oude coronavirussen: eind dit jaar golf van herbesmettingen mogelijk</strong>
+                <a href="artikel.html">
+                    <strong>Nieuws</strong>
+                    <strong>Studie naar oude coronavirussen: eind dit jaar golf van herbesmettingen mogelijk</strong>
+                </a>
             </div>
         </section>
 
@@ -104,10 +78,11 @@
                 </article>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/interview_1.jpg" alt="Audrey Beckers portret">
             <p><strong class="uppercase">Interview</strong>Audrey Beckers</p>
             <p><strong>De verslaafde arts die verslavingsarts werd</strong>: 'Ik vond dat ik 80 uur per week moest werken'</p>
+            <a href="#" id="artikelLezen" class="artikelLezen">Lees artikel</a>
         </section>
         <section class="column">
             <div>
@@ -135,12 +110,12 @@
                 </article>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/interview_2.jpg" alt="Salo Muller portret">
             <p><strong class="uppercase">Interview</strong>Salo Muller. 'Kwelgeest' van de NS</p>
             <p>'Ik wilde een vergoeding die de NS een beetje pijn doet'</p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/reportage.jpg" alt="Dokter die bloed afneemt bij patiënt">
             <p><strong class="uppercase">Reportage</strong>Powerbank</p>
             <p><strong>Bloedplasma doneren bij de Powerbank was nog nooit zo makkelijk</strong></p>
@@ -153,24 +128,24 @@
                 <img src="./images/teun_vd_keuken.png" alt="Teun van de Keuken portret">
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/tourdefrance.jpg" alt="Wielrenners">
             <p><strong class="uppercase">Nieuws</strong>Tour de France</p>
             <p><strong>Op de Grand Colombier zakken juist de Colombiaanse berggeiten door het ijs</strong></p>
         </section>
-        <section class="kopje">
+        <section class="categorietitel" id="nieuwsachtergrond">
             <p>Nieuws</p>
             <p>&amp;</p>
             <p>Achtergrond</p>
         </section>
-        <section class="versie2">
+        <section class="artikel_volledigebreedte_fotointekst">
             <img src="./images/achtergrond.jpg" alt="Verschillende mensen in gesprek met elkaar">
             <div>
                 <p><strong class="uppercase inspring">Achtergrond</strong>Kerkbezoek</p>
                 <p>Corona versnelt <strong>leegloop uit kerk </strong>met bijna tien jaar. De vraag die nu gonst is: 'Zijn we nu niet alles kwijt?'</p>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/reportage_2.jpg" alt="Portret van twee kinderen">
             <p><strong class="uppercase">Reportage</strong>Lesbos</p>
             <p><strong>Vluchtelingen op Lesbos willen niet opnieuw in een kamp, ook al is het splinternieuw</strong></p>
@@ -208,12 +183,12 @@
                 </article>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/nieuws_2.jpg" alt="Vrouw met mondkapje naast een openstaande auto bij verbrand gebouw">
             <p><strong class="uppercase">Nieuws</strong>Bosbranden VS</p>
             <p><strong>Zeker dertig doden en veel desinformatie bij branden Amerikaanse westkust</strong></p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/nieuws_3.jpg" alt="Akwasi bij protest">
             <p><strong class="uppercase">Nieuws</strong>Akwasi</p>
             <p><strong>OM: Geen vriendjespolitiek officie van justitie die besloot Akwasi niet te vervolgen</strong></p>
@@ -221,19 +196,19 @@
         <div class="button">
             <button class="meer">Meer nieuws &amp; achtergrond</button>
         </div>
-        <section class="kopje">
+        <section class="categorietitel" id="columnsopinie">
             <p>Columns</p>
             <p>&amp;</p>
             <p>Opinie</p>
         </section>
-        <section class="versie2">
+        <section class="artikel_volledigebreedte_fotointekst">
             <img src="./images/opinie.jpg" alt="Vrouw zittend op de grond naast een rij staande mensen">
             <div>
                 <p><strong class="uppercase inspring">Opinie</strong>Leo Lucassen</p>
                 <p>Kom boven megafoon van populisten uit en zorg voor <strong>humaan asielbeleid</strong></p>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/oproep.jpg" alt="Illustratie van twee mensen aan tafel">
             <p><strong class="uppercase">Oproep</strong>Nederland in gesprek</p>
             <p>Kunnen we de dialoog weer op gang brengen? Doe mee met <strong>Nederland in gesprek </strong>en breek uit uw bubbel</p>
@@ -246,7 +221,7 @@
                 <img src="./images/sander_schimmelpennick.png" alt="Sander Schimmelpenninck portret">
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/gastcolumn.jpg" alt="Mensen zittend op een grasveld">
             <p><strong class="uppercase">Gastcolumn</strong>Yarin Eski</p>
             <p>Universitair docent Yarin Eski: 'De universiteit is <strong>dood'</strong></p>
@@ -262,28 +237,28 @@
         <div class="button">
             <button class="meer">Meer columns &amp; opinie</button>
         </div>
-        <section class="kopje2">
+        <section class="categorietitel2" id="uitgelicht">
             <p>Uitgelicht</p>
             <button>Podcasts</button>
         </section>
-        <section class="versie2">
+        <section class="artikel_volledigebreedte_fotointekst">
             <img src="./images/reconstructie.jpg" alt="Illustratie vrouw met bloemen">
             <div>
                 <p><strong class="uppercase inspring">Reconstructie</strong></p>
                 <p>Sophie (3) vertelt iets verontrustends over <strong>de kinderopvang</strong>. En dan gaat er van alles mis</p>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/design.jpg" alt="Illustratie opgehangen flessen">
             <p><strong class="uppercase">Design</strong>Publieksjury</p>
             <p><strong>Stemmen </strong>op de 10 kanshebbers van de Hema-<strong>ontwerpwedstrijd</strong></p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/volkskrant_magazine.jpg" alt="Sigrid Kaag portret">
             <p><strong class="uppercase">Volkskrant magazine</strong></p>
             <p>Dit weekend: <strong>Sigrid Kaag</strong>, Merlijn Kamerling en de Hema-ontwerpwedstrijd</p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/nieuwsquiz.jpg" alt="Illustratie van vraagtekens">
             <p><strong class="uppercase">Nieuwsquiz</strong>Week 37</p>
             <p>CO2-uitstoor, de Nigeriaanse mensenhandel en Rineke Dijkstra: test je kennis met de <strong>nieuwsquiz</strong></p>
@@ -291,10 +266,10 @@
         <div class="button">
             <button class="meer">Meer uitgelicht</button>
         </div>
-        <section class="kopje">
+        <section class="categorietitel" id="wetenschap">
             <p>Wetenschap</p>
         </section>
-        <section class="versie2 zwart top">
+        <section class="artikel_volledigebreedte_fotointekst zwart top">
             <img src="./images/nieuwste_cijfers.jpg" alt="Illustratie smiley met halo en hartje">
             <div>
                 <p><strong class="uppercase inspring">De nieuwste cijfers</strong>Geluk</p>
@@ -309,17 +284,17 @@
                 <img src="./images/joost_zaat.png" alt="Joost Zaat portret">
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/wetenschap.jpg" alt="Paarse substantie in erlenmeyer">
             <p><strong class="uppercase">Wetenschap</strong>Leven scheppen</p>
             <p><strong>De knutselwezens komen eraan: </strong> hoe wetenschappers aan nieuw leven werken</p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/wetenschap_2.jpg" alt="Onderzeeër">
             <p><strong class="uppercase">Wetenschap</strong>Oceaanonderzoek</p>
             <p>De nieuwe oceanauten: hoe miljardairs <strong>met een filantropische vloot </strong>de wetenschap beïnvloeden</p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/nieuws_4.jpg" alt="Portret man in stadion">
             <p><strong class="uppercase">Nieuws</strong>Ontstoken hartspier</p>
             <p><strong>Hartschade topsporters na corona-infectie, onderzoek onder meer patiënten volgt</strong></p>
@@ -327,17 +302,17 @@
         <div class="button">
             <button class="meer">Meer wetenschap</button>
         </div>
-        <section class="kopje2">
+        <section class="categorietitel2" id="mensen">
             <p>Mensen</p>
         </section>
-        <section class="versie2 zwart top right">
+        <section class="artikel_volledigebreedte_fotointekst zwart top right">
             <img src="./images/dit_ben_ik.jpg" alt="Jamie Mutsaers op houten brug">
             <div>
                 <p><strong class="uppercase inspring">Dit ben ik</strong>Jamie Mutsaers (7)</p>
                 <p>'In Barcelona kan ik Messi ontmoeten. Dat is de beste voetballer ter wereld'</p>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/zinvol_leven.jpg" alt="Portret Lucas van der Rhee">
             <p><strong class="uppercase">Zinvol leven</strong>Lucas van der Rhee</p>
             <p>Leven met een <strong>genetische hartafwijking</strong>: 'Er niet over praten maakt de dood alleen maar angstaanjagender'</p>
@@ -358,7 +333,7 @@
                 <img src="./images/jasper_van_kuijk.png" alt="Portret Jasper van Kuijk">
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/interview_3.jpg" alt="Portret Sigrid Kaag">
             <p><strong class="uppercase">Interview</strong>Minister Sigrid Kaag</p>
             <p>'Het lijkt soms net alsof ik een <strong>eeuwige inburgeringscursus </strong>moet doen'</p>
@@ -366,17 +341,15 @@
         <div class="button">
             <button class="meer">Meer mensen</button>
         </div>
-        <section class="kopje3">
+        <section class="categorietitel3" id="degids">
             <p>De Gids</p>
             <div class="categorieen">
                 <button>Reizen</button>
                 <button>Opvoeden</button>
                 <button>Eten en Drinken</button>
-                <button>Kijken</button>
-                <button>Werken</button>
             </div>
         </section>
-        <section class="versie2 center top geenschaduw">
+        <section class="artikel_volledigebreedte_fotointekst center top geenschaduw">
             <img src="./images/gids.jpg" alt="Illustratie mens onder huis van drie boeken">
             <div>
                 <p><strong class="uppercase inspring">De Gids</strong>Studentenleven</p>
@@ -414,19 +387,19 @@
         <div class="button">
             <button class="meer">Meer de gids</button>
         </div>
-        <section class="kopje4">
+        <section class="categorietitel4" id="cultuurmedia">
             <p>Cultuur</p>
             <p>&amp;</p>
             <p>Media</p>
         </section>
-        <section class="versie2 zwart top">
+        <section class="artikel_volledigebreedte_fotointekst zwart top">
             <img src="./images/interview_4.jpg" alt="Portret van een vrouw met sluier voor haar gezicht">
             <div>
                 <p><strong class="uppercase inspring">Interview</strong>Stephen Jones</p>
                 <p>Dat Prinsjesdag hoedeloos gaat verlopen is jammer, leert <strong>de beroemdste hoedenmaker ter wereld</strong></p>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/nieuws_5.jpg" alt="Muurschildering van Anne Frank">
             <p><strong class="uppercase">Nieuws</strong>Streetartmuseum</p>
             <p><strong>Hoe het misliep tussen de initiatiefnemers van het enorme streetartmuseum</strong></p>
@@ -465,22 +438,22 @@
                 <img src="./images/emma_curvers.png" alt="Portret Emma Curvers">
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/postuum.jpg" alt="Portret Terance Conran">
             <p><strong class="uppercase">Postuum</strong>Terence Conran (1931-2020)</p>
             <p>Terence Conran was een designrevolutionair, maar ook een <strong>superzuinige knorrepot</strong></p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <p><strong class="uppercase">Sigmund</strong>Peter de Wit</p>
             <img src="./images/sigmund.jpg" alt="Stripverhaal van Sigmund">
         </section>
         <div class="button">
             <button class="meer">Meer cultuur &amp; media</button>
         </div>
-        <section class="kopje2">
+        <section class="categorietitel2" id="foto">
             <p>Foto</p>
         </section>
-        <section class="versie2 center zwart">
+        <section class="artikel_volledigebreedte_fotointekst center zwart">
             <img src="./images/fotografie.jpg" alt="Fotocollage van oude naaktfoto's">
             <div>
                 <p><strong class="uppercase inspring">Fotografie</strong>Bloot</p>
@@ -490,22 +463,22 @@
         <div class="button">
             <button class="meer">Meer foto</button>
         </div>
-        <section class="kopje5">
+        <section class="categorietitel5" id="economie">
             <p>Economie</p>
         </section>
-        <section class="versie2 center">
+        <section class="artikel_volledigebreedte_fotointekst center">
             <img src="./images/onderneming.jpg" alt="Portet van een boer in het gras">
             <div>
                 <p><strong class="uppercase inspring">De Onderneming</strong>Commonland</p>
                 <p>De mens verpest overal ter wereld de natuur. <strong>Deze boer wil het tij keren</strong></p>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/winnaarenverliezer.jpg" alt="Portret van een vrouw met bril">
             <p><strong class="uppercase">Winnaar &amp; verliezer</strong>Fraser &amp; Christine Lagarde</p>
             <p>Fraser pakt een kans, Christine Lagarde verspeelt er een</p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/interview_5.jpg" alt="Portret Hans de Boer">
             <p><strong class="uppercase">Interview</strong>Werkgeversvoorzitter Hans de Boer</p>
             <p>'Deze voorzitter moet niet te beroerd zijn om tussen die mannen in te staan'</p>
@@ -513,32 +486,32 @@
         <div class="button">
             <button class="meer">Meer economie</button>
         </div>
-        <section class="kopje6">
+        <section class="categorietitel6" id="sport">
             <p>Sport</p>
         </section>
-        <section class="versie2 center">
+        <section class="artikel_volledigebreedte_fotointekst center">
             <img src="./images/nieuws_6.jpg" alt="Arjen Robben in voetbalstadium">
             <div>
                 <p><strong class="uppercase inspring">Nieuws</strong>Groningen - PSV</p>
                 <p><strong>Uitval Arjen Robben overschaduwt treffen met PSV</strong></p>
             </div>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/interview_6.jpg" alt="Vier wielrenners in actie">
             <p><strong class="uppercase">Interview</strong>Oom Jos van Aert</p>
             <p>De Nederlandse roots van wielrenner Wout van Aert: 'Het is van Aert met <strong>een kleine v'</strong></p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/nieuws_7.jpg" alt="Max Verstappen naast zijn gecrashte Formule1-wagen">
             <p><strong class="uppercase">Nieuws</strong>Formule1</p>
             <p><strong>Na 20 seconden is het duidelijk op Mugello: Verstappen wordt niet de jongste F1-kampioen ooit</strong></p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/wedstrijdverslag.jpg" alt="Twee voetballers van verschillende clubs in actie">
             <p><strong class="uppercase">Wedstrijdverslag</strong>Sparta - Ajax</p>
             <p><strong>Blind is terug, Antony scoort - heus, met winnend Ajax gaat het zo beroerd nog niet</strong></p>
         </section>
-        <section class="versie1">
+        <section class="artikel_witterand_titelonderfoto">
             <img src="./images/nieuws_8.jpg" alt="Portret Noami Osaka met gewonnen beker">
             <p><strong class="uppercase">Nieuws</strong>US Open</p>
             <p><strong>Naomi Osaka heeft zichzelf hervonden en laat dat ook zien in de eindstrijd van de US Open</strong></p>
@@ -552,43 +525,71 @@
         <strong>Tip hier onze journalisten</strong>
 
         <h4>Algemeen</h4>
-        <a href="">Contact met de Volkskrant</a>
-        <a href="">Privacystatement</a>
-        <a href="">Abonnementsvoorwaarden</a>
-        <a href="">Gebruiksvoorwaarden</a>
-        <a href="">Cookiebeleid</a>
-        <a href="">Cookie-instellingen</a>
-        <a href="">Colofon</a>
+        <ul>
+            <li><a href="#">Contact met de Volkskrant</a></li>
+            <li><a href="#">Privacystatement</a></li>
+            <li><a href="#">Abonnementsvoorwaarden</a></li>
+            <li><a href="#">Gebruiksvoorwaarden</a></li>
+            <li><a href="#">Cookiebeleid</a></li>
+            <li><a href="#">Cookie-instellingen</a></li>
+            <li><a href="#">Colofon</a></li>
+        </ul>
 
         <h4>Service</h4>
-        <a href="">Klantenservice</a>
-        <a href="">Mijn account</a>
-        <a href="">Vakantieservice</a>
-        <a href="">Adverteren</a>
-        <a href="">Losse verkoop</a>
+        <ul>
+            <li><a href="#">Klantenservice</a></li>
+            <li><a href="#">Mijn account</a></li>
+            <li><a href="#">Vakantieservice</a></li>
+            <li><a href="#">Adverteren</a></li>
+            <li><a href="#">Losse verkoop</a></li>
+        </ul>
 
         <h4>Meer de Volkskrant</h4>
-        <a href="">Abonneren</a>
-        <a href="">Nieuwsbrieven</a>
-        <a href="">Digitale krant</a>
-        <a href="">Webwinkel</a>
-        <a href="">Inclusief</a>
-        <a href="">RSS-feeds</a>
-        <a href="">Facebook</a>
-        <a href="">Twitter</a>
-        <a href="">Android apps</a>
-        <a href="">iOS apps</a>
+        <ul>
+            <li><a href="#">Abonneren</a></li>
+            <li><a href="#">Nieuwsbrieven</a></li>
+            <li><a href="#">Digitale krant</a></li>
+            <li><a href="#">Webwinkel</a></li>
+            <li><a href="#">Inclusief</a></li>
+            <li><a href="#">RSS-feeds</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Android apps</a></li>
+            <li><a href="#">iOS apps</a></li>
+        </ul>
 
         <h4>Navigeer</h4>
-        <a href="">Columnisten</a>
-        <a href="">Recensies</a>
-        <a href="">De Volkskeuken</a>
-        <a href="">Archief</a>
+        <ul>
+            <li><a href="#">Columnisten</a></li>
+            <li><a href="#">Recensies</a></li>
+            <li><a href="#">De Volkskeuken</a></li>
+            <li><a href="#">Archief</a></li>
+        </ul>
 
         <div>
-            <img src="./images/sigmund_footer.png" alt="">
+            <img src="./images/sigmund_footer.png" alt="Sigmund met telefoon">
             <p>Op alle verhalen van de Volkskrant rust uiteraard copyright. Linken kan altijd, eventueel met de intro van het stuk erboven. Wil je tekst overnemen of een video(fragment), foto of illustratie gebruiken, mail dan naar <a href="mailto:copyright@volkskrant.nl">copyright@volkskrant.nl</a>. &copy; 2020 DPG Media B.V. - alle rechten voorbehouden</p>
         </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Start</a>
+                </li>
+                <li>
+                    <a href="#">Best gelezen</a>
+                </li>
+                <li>
+                    <a href="#">Nieuws</a>
+                </li>
+                <li>
+                    <a href="#">Zoeken</a>
+                </li>
+                <li>
+                    <a href="#">Service</a>
+                </li>
+            </ul>
+        </nav>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
