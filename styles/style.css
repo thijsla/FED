@@ -578,8 +578,12 @@ section:first-of-type a{
 }
 
 
-.artikelLezen{
+.verborgenLink{
     display: none;
+}
+
+.toonLink{
+    display: block;
 }
 
 /*--------------Footer-----------*/
