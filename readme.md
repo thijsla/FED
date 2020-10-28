@@ -1,25 +1,22 @@
 # Procesverslag
 **Auteur:** Thijs Landsmeer
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
 
 ## Bronnenlijst
 1. www.volkskrant.nl
-2. Verschillende studentassistenten en docenten hebben mij geholpen met het verwerken van een aantal kleine problemen.
+2. Verschillende studentassistenten en docenten hebben mij geholpen met het verwerken van een aantal problemen.
 3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik vond het lastig om JavaScript toe te voegen aan mijn website. Ik vond de HTML niet zo lastig om te doen en af en toe had ik wat moeite met CSS, maar over het algemaaen ging het wel prima.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(574).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(575).png)
 
 
 ## Voortgang 3 (week 6)
