@@ -15,8 +15,8 @@ Ik vond het lastig om JavaScript toe te voegen aan mijn website. Ik vond de HTML
 
 **Screenshot(s):**
 
-![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(574).png)
 ![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(575).png)
+![screenshot](https://github.com/thijsla/FED/blob/master/images/Schermopname%20(574).png)
 
 
 ## Voortgang 3 (week 6)
