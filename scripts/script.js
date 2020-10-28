@@ -1,6 +1,6 @@
 // JavaScript Document
 var leesArtikel = document.querySelector(".artikel_witterand_titelonderfoto");
-var Link = document.querySelector("#verborgenLink");
+var artikelLink = document.querySelector("#verborgenLink");
 
 leesArtikel.addEventListener("click", revealLink);
 
